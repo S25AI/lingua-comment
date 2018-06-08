@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 95%;
+  margin: 5rem auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.comments-item {
+  padding: 16px 8px;
+  min-height: 120px;
+  position: relative;
+}
+
+.comments-item + .comments-item {
+  border-top: 1px solid #ccc;
+}
+
+.comments-rate {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.comments-text {
+  margin-top: 12px;
+}
+
+textarea {
+  display: block;
+  min-height: 160px;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+
+.product-rate-title {
+  margin-top: 16px;
+}
+
+.product-radio {
+  display: inline-block;
+}
+
+.product-radio + .product-radio {
+  margin-left: 12px;
+}
+
+.product-rate-container {
+  position: relative;
+}
+
+.product-submit-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
